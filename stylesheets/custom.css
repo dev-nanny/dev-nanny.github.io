@@ -1,6 +1,17 @@
 /**
-* Footer for Potherca
-*/
+ * Header Logo
+ */
+.inner .logo {
+    background: white;
+    width: 40%;
+    float: right;
+    border-radius: 100%;
+    box-shadow: 0 0 2em #f2f2f2, 0 0 1em black;
+}
+
+/**
+ * Footer for Potherca
+ */
 .created-by {
     color: white;
     text-decoration: none;
