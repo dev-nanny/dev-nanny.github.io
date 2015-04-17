@@ -31,6 +31,8 @@ On each run, all included connectors will be run.
 ## Installation
 
 Dev-Nanny needs to be installed per individual project using Composer.
+If Composer is not (yet) installed, do so before proceeding, follow the [Composer installation instructions].
+
 Run the following command on the command-line inside your project folder:
 
     php composer.phar require dev-nanny/dev-nanny --dev
@@ -103,3 +105,4 @@ dev-nanny on an interval or whenever a file changes.
 [Connectors]: https://github.com/dev-nanny/Connectors/
 [ConnectorBase]: https://github.com/dev-nanny/Connector-Base
 [Connector-PhpLint]: https://github.com/dev-nanny/Connector-PhpLint/
+[Composer installation instructions]: https://getcomposer.org/doc/00-intro.md
