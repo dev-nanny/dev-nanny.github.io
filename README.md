@@ -16,7 +16,6 @@ make a suggestion there too.
 This makes DevNanny ideally suited for both novice programmers as well as
 seasoned professionals.
 
-
 ## Usage
 
 Everything should work straight out of the box. DevNanny will be run each time
@@ -42,7 +41,7 @@ This will download everything Dev-Nanny needs and install the git hook.
 
 Connectors are available for the following tools:
 
- - Php Lint (also known as `php -l`)
+ - [Php Lint][Connector-PhpLint] (also known as `php -l`)
 
 Planned Connectors:
 
@@ -59,6 +58,12 @@ Planned Connectors:
 This project has been divided into separate packages that each have a single,
 distinct, responsibility. This is done to make it as easy as possible to alter,
 overwrite or customise parts of DevNanny.
+
+- [Dev-Nanny] - Meta Package
+- [ComposerPlugin]
+- [ConnectorBase]
+- [Connectors] - Meta Package
+- [GitHook]
 
 The chain of dependency is as follows:
 
@@ -91,3 +96,10 @@ use one *now*. You are missing out on great things!
 If you don't use a versioning tool for a certain project, you can always just
 run dev-nanny occasionally by hand or use a file-watcher or task-runner to run
 dev-nanny on an interval or whenever a file changes.
+
+[Dev-Nanny]: https://github.com/dev-nanny/dev-nanny/
+[ComposerPlugin]: https://github.com/dev-nanny/ComposerPlugin/
+[GitHook]: https://github.com/dev-nanny/GitHook
+[Connectors]: https://github.com/dev-nanny/Connectors/
+[ConnectorBase]: https://github.com/dev-nanny/Connector-Base
+[Connector-PhpLint]: https://github.com/dev-nanny/Connector-PhpLint/
